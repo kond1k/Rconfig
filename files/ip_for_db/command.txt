@@ -1,0 +1,157 @@
+INSERT INTO `nodes` VALUES (
+83, '1', '2', 'CC48-012BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.12.254', '<012BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+84, '1', '2', 'CC48-014BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.14.254', '<014BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+85, '1', '2', 'CC48-015BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.15.254', '<015BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+86, '1', '2', 'CC48-016BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.16.254', '<016BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+87, '1', '2', 'CC48-018BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.18.254', '<018BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+88, '1', '2', 'CC48-019BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.19.254', '<019BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+89, '1', '2', 'CC48-020BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.20.254', '<020BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+90, '1', '2', 'CC48-023BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.23.254', '<023BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+91, '1', '2', 'CC48-024BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.24.254', '<024BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+92, '1', '2', 'CC48-084BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.84.254', '<084BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+93, '1', '2', 'CC48-028BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.28.254', '<028BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+94, '1', '2', 'CC48-030BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.30.254', '<030BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+95, '1', '2', 'CC48-031BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.31.254', '<031BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+96, '1', '2', 'CC48-032BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.32.254', '<032BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+97, '1', '2', 'CC48-033BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.33.254', '<033BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+98, '1', '2', 'CC48-034BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.34.254', '<034BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+99, '1', '2', 'CC48-036BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.36.254', '<036BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+100, '1', '2', 'CC48-037BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.37.254', '<037BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+101, '1', '2', 'CC48-038BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.38.254', '<038BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+102, '1', '2', 'CC48-040BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.40.254', '<040BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+103, '1', '2', 'CC48-041BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.41.254', '<041BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+104, '1', '2', 'CC48-042BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.42.254', '<042BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+105, '1', '2', 'CC48-044BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.44.254', '<044BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+106, '1', '2', 'CC48-045BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.45.254', '<045BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+107, '1', '2', 'CC48-046BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.46.254', '<046BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+108, '1', '2', 'CC48-048BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.48.254', '<048BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+109, '1', '2', 'CC48-049BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.49.254', '<049BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+110, '1', '2', 'CC48-050BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.50.254', '<050BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+111, '1', '2', 'CC48-052BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.52.254', '<052BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+112, '1', '2', 'CC48-053BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.53.254', '<053BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+113, '1', '2', 'CC48-054BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.54.254', '<054BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+114, '1', '2', 'CC48-056BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.56.254', '<056BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+115, '1', '2', 'CC48-057BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.57.254', '<057BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+116, '1', '2', 'CC48-058BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.58.254', '<058BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+117, '1', '2', 'CC48-060BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.60.254', '<060BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+118, '1', '2', 'CC48-061BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.61.254', '<061BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+119, '1', '2', 'CC48-062BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.62.254', '<062BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+120, '1', '2', 'CC48-064BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.64.254', '<064BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+121, '1', '2', 'CC48-065BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.65.254', '<065BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+122, '1', '2', 'CC48-066BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.66.254', '<066BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+123, '1', '2', 'CC48-068BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.68.254', '<068BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+124, '1', '2', 'CC48-069BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.69.254', '<069BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+125, '1', '2', 'CC48-070BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.70.254', '<070BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+126, '1', '2', 'CC48-072BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.72.254', '<072BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+127, '1', '2', 'CC48-073BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.73.254', '<073BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+128, '1', '2', 'CC48-074BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.74.254', '<074BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+129, '1', '2', 'CC48-076BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.76.254', '<076BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+130, '1', '2', 'CC48-077BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.77.254', '<077BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+131, '1', '2', 'CC48-078BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.78.254', '<078BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+132, '1', '2', 'CC48-080BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.80.254', '<080BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+133, '1', '2', 'CC48-081BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.81.254', '<081BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION'),(
+134, '1', '2', 'CC48-082BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',
+'48.0.82.254', '<082BDR01>', '', 12, 5, '2', 'AR201', NULL, 'kondyukov', 0, NULL, NULL, NULL, '2021-01-14', NULL, 1,
+'48/REGION');

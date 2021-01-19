@@ -1,0 +1,43 @@
+
+  -----------------------------------------------------------------------------     
+  User last login information:     
+  -----------------------------------------------------------------------------
+  Access Type: SSH      
+  IP-Address : 10.2.1.225     
+  Time       : 2021-01-13 10:37:33+03:00     
+  -----------------------------------------------------------------------------
+<1BDR01>system-view
+Enter system view, return user view with Ctrl+Z.
+[1BDR01]aaa
+[1BDR01-aaa]local-user rconfig password cipher 5bWqIGe7rPIBMrq1kJkc privilege le [1Dvel 2
+Error: The password encryption mode cannot be changed.
+[1BDR01-aaa]local-user rconfig service-type telnet terminal ssh
+Warning: The user access modes include Telnet, FTP or HTTP, and so security risks exist.
+Info: After you change the rights (including the password, access type, FTP directory, and level) of a local user, the rights of users already online do not change. The change takes effect to users who go online after the change.
+[1BDR01-aaa]command-privilege level 2 view cli_8f display current-configuration
+  The command level is modified successfully 
+[1BDR01]display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.160 (AR2200 V200R006C10)
+Copyright (C) 2011-2015 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 51 weeks, 6 days, 21 hours, 44 minutes
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.A
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 51 weeks, 6 days, 21 hours, 43 minutes
+SDRAM Memory Size    : 2048    M bytes
+Flash 0 Memory Size  : 16      M bytes
+NVRAM Memory Size    : 512     K bytes
+SD Card1 Memory Size : 1955    M bytes
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.C
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. CPLD0    Version  : 104
+5. BootROM  Version  : 901
+
+[1BDR01]

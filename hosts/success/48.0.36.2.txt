@@ -1,0 +1,31 @@
+
+<036BDR01>system-view
+Enter system view, return user view with Ctrl+Z.
+[036BDR01]aaa
+[036BDR01-aaa]local-user rconfig password cipher 5bWqIGe7rPIBMrq1kJkc privilege  [1Dlevel 2
+Info: Add a new user.
+[036BDR01-aaa]local-user rconfig service-type telnet terminal ssh
+Info: The cipher password has been changed to an irreversible-cipher password.
+Warning: The user access modes include Telnet, FTP or HTTP, and so security risks exist.
+Info: After you change the rights (including the password, access type, FTP directory, and level) of a local user, the rights of users already online do not change. The change takes effect to users who go online after the change.
+[036BDR01-aaa]command-privilege level 2 view cli_8f display current-configuratio [1Dn
+ It will take several minutes, please wait...
+  The command level is modified successfully 
+[036BDR01]display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.160 (AR200 V200R007C00SPC900PWE)
+Copyright (C) 2011-2016 HUAWEI TECH CO., LTD
+Huawei AR201 Router uptime is 63 weeks, 0 day, 22 hours, 14 minutes
+
+MPU 0(Master) : uptime is 63 weeks, 0 day, 22 hours, 13 minutes
+SDRAM Memory Size    : 512     M bytes
+Flash 0 Memory Size  : 512     M bytes
+Flash 1 Memory Size  : 2       M bytes
+MPU version information : 
+1. PCB      Version  : AR01SRU0B VER.B
+2. MAB      Version  : 0
+3. Board    Type     : AR201
+4. CPLD0    Version  : 102
+5. BootROM  Version  : 733
+
+[036BDR01]
