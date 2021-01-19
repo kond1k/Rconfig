@@ -3,6 +3,7 @@ from datetime import datetime
 
 
 def create_command_for_new_device(ip):
+    # Добавить - имя девайса, ip, Prompt, категорию, темплейт, модель, регион
     sqlid = SQL_commands.get_max_id() + 1
     ipsplit = ip.split('.')
     command = '''INSERT INTO nodes (id,deviceName, deviceUsername, devicePassword,

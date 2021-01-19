@@ -1,0 +1,42 @@
+
+  -----------------------------------------------------------------------------     
+  User last login information:     
+  -----------------------------------------------------------------------------
+  Access Type: SSH      
+  IP-Address : 10.2.1.225     
+  Time       : 2021-01-19 13:50:49+03:00     
+  -----------------------------------------------------------------------------
+<078BDR01>system-view
+Enter system view, return user view with Ctrl+Z.
+[078BDR01]aaa
+[078BDR01-aaa]local-user rconfig3 password irreversible-cipher 5bWqIGe7rPIBMrq1k [1DJkc privilege level 2
+Info: After you change the rights (including the password, access type, FTP directory, and level) of a local user, the rights of users already online do not change. The change takes effect to users who go online after the change.
+[078BDR01-aaa]local-user rconfig3 service-type telnet terminal ssh
+Warning: The user access modes include Telnet, FTP or HTTP, and so security risks exist.
+Info: After you change the rights (including the password, access type, FTP directory, and level) of a local user, the rights of users already online do not change. The change takes effect to users who go online after the change.
+[078BDR01-aaa]command-privilege level 2 view cli_8f display current-configuratio [1Dn
+ It will take several minutes, please wait...
+  Error: The command level has been modified to this level 
+[078BDR01]display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.160 (AR200 V200R007C00SPC900PWE)
+Copyright (C) 2011-2016 HUAWEI TECH CO., LTD
+Huawei AR201 Router uptime is 3 weeks, 3 days, 1 hour, 49 minutes
+
+MPU 0(Master) : uptime is 3 weeks, 3 days, 1 hour, 47 minutes
+SDRAM Memory Size    : 512     M bytes
+Flash 0 Memory Size  : 512     M bytes
+Flash 1 Memory Size  : 2       M bytes
+MPU version information : 
+1. PCB      Version  : AR01SRU0B VER.B
+2. MAB      Version  : 0
+3. Board    Type     : AR201
+4. CPLD0    Version  : 102
+5. BootROM  Version  : 733
+
+[078BDR01] save
+ Warning: The current configuration will be written to the device. 
+ Are you sure to continue?[Y/N]:Y
+  It will take several minutes to save configuration file, please wait..........
+  Configuration file had been saved successfully
+  Note: The configuration file will take effect after being activated
