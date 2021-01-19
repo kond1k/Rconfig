@@ -1,9 +1,9 @@
-import Get_id
+import SQL_commands
 from datetime import datetime
 
 
-def add_device(ip):
-    sqlid = Get_id.get_max_id() + 1
+def create_command_for_new_device(ip):
+    sqlid = SQL_commands.get_max_id() + 1
     ipsplit = ip.split('.')
     command = '''INSERT INTO nodes (id,deviceName, deviceUsername, devicePassword,
  deviceEnablePassword, deviceIpAddr, devicePrompt, deviceEnablePrompt, nodeCatId, templateId, vendorId,
@@ -17,7 +17,8 @@ def add_device(ip):
 
 
 if __name__ == '__main__':
-    print(add_device('48.0.99.254'))
+    sql_command = create_command_for_new_device('48.0.99.254')
+    print(SQL_commands.insert_device(sql_command))
 
 '''INSERT INTO `nodes` VALUES
  (23, '2', '2', '2', '2', 'CC48-011BDR01', 'rconfig', 'S3U3YzBOR1VLUmJUbjJ0YkJxOWZWaXNnVWlSOFVpc2ZvTXladFdnMVNVaz0=', '',

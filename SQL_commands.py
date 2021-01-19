@@ -27,6 +27,22 @@ def get_max_id():
         return data[0][0]
 
 
+def insert_device(command):
+    with SSHTunnelForwarder(
+            (ssh_host, ssh_port),
+            ssh_username=ssh_user,
+            ssh_password=ssh_password,
+            remote_bind_address=(sql_hostname, sql_port)) as tunnel:
+        conn = pymysql.connect(host=sql_hostname, user=sql_username,
+                               passwd=sql_password, db=sql_main_database, port=tunnel.local_bind_port)
+        query = command
+        cursor = conn.cursor()
+        cursor.execute(command)
+        conn.commit()
+        data = cursor.fetchall()
+        return data
+
+
 if __name__ == '__main__':
     id = get_max_id()
     print(id)
