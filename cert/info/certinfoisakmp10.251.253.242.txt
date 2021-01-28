@@ -1,0 +1,80 @@
+S-Terra Gate 4.3.20279 (amd64)
+root@pov-4-csp1:~# sa_mgr show -isakmp -detail
+ISAKMP sessions: 0 initiated, 0 responded
+
+ISAKMP connection id: 690
+    cookies: 4FD4F0BC05EC4CB4.AD076D95F536559F
+    local  peer (addr/port): 10.251.254.3/500
+    remote peer (addr/port): 10.62.3.36/500
+
+    local identity (DN): C=RU,CN=pov-4-csp1
+    remote identity (DN): C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=stupinskiy-mr-3cs
+    IKERule name: IKERule:CMAP:4:DMAP:1
+    auth: gost signature
+    mode: main
+
+    sa:
+     transform: gost2814789cp-cbc gostr341194cp
+     Oakley group: vko
+     sa limits: key lifetime (qm/k/sec): -/-/86400
+     sa timing: remaining key lifetime (qm/k/sec): -/-/65946
+     status: active
+
+
+ISAKMP connection id: 691
+    cookies: 10182DC4494F1721.D166F7CE2D7B7913
+    local  peer (addr/port): 10.251.254.3/500
+    remote peer (addr/port): 10.51.2.36/500
+
+    local identity (DN): C=RU,CN=pov-4-csp1
+    remote identity (DN): C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=pushkinskiy-mr-2cs
+    IKERule name: IKERule:CMAP:4:DMAP:1
+    auth: gost signature
+    mode: main
+
+    sa:
+     transform: gost2814789cp-cbc gostr341194cp
+     Oakley group: vko
+     sa limits: key lifetime (qm/k/sec): -/-/86400
+     sa timing: remaining key lifetime (qm/k/sec): -/-/68738
+     status: active
+
+
+ISAKMP connection id: 693
+    cookies: B2AEA4CE61B61B75.8FAECD76857C5AFC
+    local  peer (addr/port): 10.251.254.3/500
+    remote peer (addr/port): 10.57.2.36/500
+
+    local identity (DN): C=RU,CN=pov-4-csp1
+    remote identity (DN): C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=s-posadskiy-mr-2cs
+    IKERule name: IKERule:CMAP:4:DMAP:1
+    auth: gost signature
+    mode: main
+
+    sa:
+     transform: gost2814789cp-cbc gostr341194cp
+     Oakley group: vko
+     sa limits: key lifetime (qm/k/sec): -/-/86400
+     sa timing: remaining key lifetime (qm/k/sec): -/-/70984
+     status: active
+
+
+ISAKMP connection id: 694
+    cookies: 34F9735CA63D7049.C5C49364AC154344
+    local  peer (addr/port): 10.251.254.3/500
+    remote peer (addr/port): 10.61.4.36/500
+
+    local identity (DN): C=RU,CN=pov-4-csp1
+    remote identity (DN): C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=s-gorskiy-mr-4cs
+    IKERule name: IKERule:CMAP:4:DMAP:1
+    auth: gost signature
+    mode: main
+
+    sa:
+     transform: gost2814789cp-cbc gostr341194cp
+     Oakley group: vko
+     sa limits: key lifetime (qm/k/sec): -/-/86400
+     sa timing: remaining key lifetime (qm/k/sec): -/-/81777
+     status: active
+
+root@pov-4-csp1:~# 

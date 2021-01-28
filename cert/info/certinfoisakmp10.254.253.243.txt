@@ -1,0 +1,4 @@
+S-Terra Gate 4.3.20279 (amd64)
+root@pov-1-csp2:~# sa_mgr show -isakmp -detail
+ISAKMP sessions: 0 initiated, 0 responded
+root@pov-1-csp2:~# 

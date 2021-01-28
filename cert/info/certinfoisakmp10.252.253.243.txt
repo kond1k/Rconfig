@@ -1,0 +1,21 @@
+S-Terra Gate 4.3.20279 (amd64)
+root@pov-3-csp2:~# sa_mgr show -isakmp -detail
+ISAKMP sessions: 1 initiated, 0 responded
+
+ISAKMP connection id: 53690
+    cookies: 5206952BBD18898F.0000000000000000
+    local  peer (addr/port): 10.252.254.4/500
+    remote peer (addr/port): 10.37.14.6/500
+
+    IKERule name: IKERule:CMAP:4:DMAP:1
+    auth: unknown
+    mode: main
+
+    sa:
+     transform: none none
+     Oakley group: none
+     sa limits: key lifetime (qm/k/sec): -/-/-
+     sa timing: remaining key lifetime (qm/k/sec): -/-/-
+     status: incompleted
+
+root@pov-3-csp2:~# 

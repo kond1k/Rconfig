@@ -1,0 +1,1 @@
+/opt/VPNagent/bin/vershow
