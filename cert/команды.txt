@@ -1,1 +1,2 @@
 /opt/VPNagent/bin/vershow
+/opt/VPNagent/bin/ver_show

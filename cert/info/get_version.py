@@ -24,8 +24,14 @@ def exec_command_get_cert(host, user, secret, port=22):
         time.sleep(2)
         data.send("/opt/VPNagent/bin/ver_show\n")
         time.sleep(2)
+        data.send("cat /etc/redhat-release\n")
+        time.sleep(2)
+        data.send("cert_mgr show\n")
+        time.sleep(2)
         local = data.recv(100000).decode('utf-8')
+        index = re.search(r'(?P<index>\d+) \S+ local', local)
         print(local)
+        print(index)
 
     except paramiko.ssh_exception.NoValidConnectionsError:
         with open('fail.txt', 'a') as fail:
