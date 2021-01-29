@@ -26,12 +26,16 @@ def exec_command_get_cert(host, user, secret, port=22):
         time.sleep(2)
         data.send("cat /etc/redhat-release\n")
         time.sleep(2)
+        version = data.recv(100000).decode('utf-8')
         data.send("cert_mgr show\n")
         time.sleep(2)
         local = data.recv(100000).decode('utf-8')
         index = re.search(r'(?P<index>\d+) \S+ local', local)
-        print(local)
-        print(index)
+        data.send(f'cert_mgr show -i {index["index"]}\n')
+        dn = data.recv(100000).decode('utf-8')
+        print(version)
+        print(*30)
+        print(dn)
 
     except paramiko.ssh_exception.NoValidConnectionsError:
         with open('fail.txt', 'a') as fail:
