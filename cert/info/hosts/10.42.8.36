@@ -1,0 +1,27 @@
+Last login: Wed Mar 18 09:06:22 2020 from 10.254.253.252
+[root@or-zuevo-mr-8cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@or-zuevo-mr-8cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@or-zuevo-mr-8cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=or-zuevo-mr-8cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Mon Jul  4 16:25:00 2016
+  Valid to:   Wed Oct  4 16:40:00 2017
+  Version: 3
+  Serial number: 43 1D 0D 97 00 00 00 00 03 E0
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  EF 19 29 3C 15 70 79 B0 64 E0 C6 9E CE 6A E5 CD
+  Hash SHA1: 53 16 08 41 CB 91 E1 B3 80 F9 12 4C 09 50 A3 92 14 33 AF FC
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\RaUser-137c132c-5b27-4975-95ea-59a81557898e'
+[root@or-zuevo-mr-8cs ~]# 

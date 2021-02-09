@@ -1,0 +1,26 @@
+[root@pav-posad-mr-3cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@pav-posad-mr-3cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@pav-posad-mr-3cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=pav-posad-mr-3cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Oct  4 08:53:00 2017
+  Valid to:   Fri Jan  4 09:08:00 2019
+  Version: 3
+  Serial number: 66 36 A1 19 00 00 00 00 07 2E
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  90 FF E2 EB 98 D4 56 1A 2E B2 D9 C0 8E 91 65 08
+  Hash SHA1: CC 14 F5 FB 22 70 30 CC 97 98 21 BD 0E B4 E8 2C 81 68 21 51
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'HDIMAGE\\RaUser-f.000'
+[root@pav-posad-mr-3cs ~]# 

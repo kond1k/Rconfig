@@ -1,0 +1,40 @@
+Linux s-posadskiy-mr-4cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu May 14 17:45:04 2020 from 10.254.253.252
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@s-posadskiy-mr-4cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,112094
+crypto provider:      S-Terra
+root@s-posadskiy-mr-4cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@s-posadskiy-mr-4cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=s-posadskiy-mr-4cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sat Nov 30 20:42:05 2019
+  Valid to:   Sun Feb 28 20:52:05 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 7B 80 EA 11 9A 13 A6 FA EF 1A
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  29 6E D6 E4 CC 7E E5 BC 1F 2A 6B 6D F0 14 E5 18
+  Hash SHA1: 23 A1 66 05 56 F9 DD ED E4 F3 06 FE A5 B9 7C 46 34 E6 83 45
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5de2ee66'
+root@s-posadskiy-mr-4cs:~# 

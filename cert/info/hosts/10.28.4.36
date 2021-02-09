@@ -1,0 +1,36 @@
+S-Terra Gate 4.3.20279 (amd64)
+root@lobna-go-4cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.3
+product build number: 4.3.20279
+product build date:   2019/12/27 13:59:32
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 4.9.0-11-amd64 #1 SMP Debian 4.9.189-3st1 (2019-09-12)
+license information:  GATE,5035027059,190760
+crypto provider:      S-Terra
+root@lobna-go-4cs:~# cat /etc/issue.net
+Debian GNU/Linux 9
+root@lobna-go-4cs:~# cert_mgr show -i 3
+3 Status: local   
+  Subject: C=RU,CN=lobna_go_4cs
+  Issuer: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Valid from: Wed Nov 18 15:08:43 2020
+  Valid to:   Fri Feb 18 15:18:43 2022
+  Version: 3
+  Type: End Entity
+  Serial number: 0B E4 CA 00 77 AC 62 98 4F BE 10 94 3C EB 5C F7
+  Signature algorithm: GOST_R_341012_256_341112 (TC26)
+  Public key: GOST R 341012(512)
+  Hash MD5:  8A 16 1B A0 3A 07 16 AE 0F 67 19 7F 23 2F 08 94
+  Hash SHA1: 46 67 F9 FD 0A 5C 20 5F 9A DA 6E 15 D1 8D 83 32 C9 A2 FC F2
+  DP[0]: URI=http://cert.coordcom.local/cdp/73d8e9c652acb51f7cdcb23c591cdfa0fe936052.crl
+  CRLI[0]: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Private key container name: 'file_p15://lobna_go_4cs'
+  Key Usage: digitalSignature, nonRepudiation, keyEncipherment, keyAgreement
+  Cert Template: "MBAGCCqFAwICLgAIAgEBAgEA"
+  Additional Extension 1.3.6.1.5.5.7.1.1: "MFkwVwYIKwYBBQUHMAKGS2h0dHA6Ly9jZXJ0LmNvb3JkY29tLmxvY2FsL2FpYS83M2Q4ZTljNjUyYWNiNTFmN2NkY2IyM2M1OTFjZGZhMGZlOTM2MDUyLmNydA=="
+  Additional Extension 2.5.29.16: "MCKADzIwMjAxMTE4MTIwODQyWoEPMjAyMjAyMTgxMjA4NDJa"
+root@lobna-go-4cs:~# 

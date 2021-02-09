@@ -1,0 +1,39 @@
+Linux molod-zato-go-3cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@molod-zato-go-3cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,MCHSRF,113200
+crypto provider:      S-Terra
+root@molod-zato-go-3cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@molod-zato-go-3cs:~# cert_mgr show -i 3
+3 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=molod-zato-go-3cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Dec 11 23:07:26 2019
+  Valid to:   Thu Mar 11 23:17:26 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E F8 A7 EA 11 53 1C EB B6 6E 3E
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  EF 9D 17 57 33 FB 22 00 17 9D 92 51 7A 47 25 D8
+  Hash SHA1: 25 FB C5 D9 DF C0 F6 BB C9 B2 7C 4A 24 47 4E C0 0E 96 E0 5C
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5df14b00'
+root@molod-zato-go-3cs:~# 

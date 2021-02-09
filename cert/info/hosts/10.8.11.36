@@ -1,0 +1,39 @@
+Linux domodedovo-go-11cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@domodedovo-go-11cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,111901
+crypto provider:      S-Terra
+root@domodedovo-go-11cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@domodedovo-go-11cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=domodedovo_go_11cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Feb  4 23:37:45 2020
+  Valid to:   Tue May  4 23:47:45 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 3A A2 EA 11 8F 47 F2 25 62 97
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  46 CD 0F 82 88 63 D7 9C CC A0 BB 25 0C 82 77 25
+  Hash SHA1: 69 A0 79 8C 97 F3 51 A5 A0 FF F6 F2 83 12 87 7A 29 22 3A 9E
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5e644992'
+root@domodedovo-go-11cs:~# 

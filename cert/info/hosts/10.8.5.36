@@ -1,0 +1,26 @@
+[root@domodedovo_go_5cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@domodedovo_go_5cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@domodedovo_go_5cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=domodedovo-go-5cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sat Feb 29 00:02:54 2020
+  Valid to:   Sat May 29 00:12:54 2021
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E F8 A7 EA 11 6F 5A 89 D8 C0 14
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  AD B1 16 0E 68 37 45 48 E2 E1 40 11 0F 5D 72 CC
+  Hash SHA1: 6D D5 DB B6 06 21 46 E7 1A 2F FD 04 89 3B 3E 52 B8 81 57 55
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'HDIMAGE\\19edaff5.000'
+[root@domodedovo_go_5cs ~]# 

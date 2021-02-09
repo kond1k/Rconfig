@@ -1,0 +1,33 @@
+S-Terra Gate 4.2.18201 (amd64)
+root@lubereckiy-mr-1cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.2
+product build number: 4.2.18201
+product build date:   2017/12/12 12:50:08
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 3.2.0-4-amd64 #1 SMP Debian 3.2.81-2
+license information:  GATE,7702771720,138061
+crypto provider:      S-Terra
+root@lubereckiy-mr-1cs:~# cat /etc/issue.net
+Debian GNU/Linux 7
+root@lubereckiy-mr-1cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=lubereckiy-mr-1cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Jul  2 13:33:45 2019
+  Valid to:   Fri Oct  2 13:43:45 2020
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 70 B0 E9 11 B6 9C 25 7C CE 42
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  B4 58 D0 1B 3C 5F 1C 1E B7 7D 3E 8C 92 52 34 D9
+  Hash SHA1: 81 43 D5 5C 21 8C 9D 8D F5 E5 1F 73 65 17 7A 46 1F 3D 51 48
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file_p15://vpn5d1b3570'
+  Key Usage: digitalSignature, keyEncipherment, keyAgreement
+root@lubereckiy-mr-1cs:~# 

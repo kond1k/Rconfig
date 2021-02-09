@@ -1,0 +1,27 @@
+Last login: Thu Jun 18 12:36:57 2020 from 10.254.254.3
+[root@podolsk-mr-9cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@podolsk-mr-9cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@podolsk-mr-9cs ~]# cert_mgr show -i 3
+3 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=podolsk-go-9cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sat Aug  4 22:10:54 2018
+  Valid to:   Mon Nov  4 22:20:54 2019
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 38 B9 E8 11 13 98 0F 5B FB 19
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  89 43 57 E4 BA 9C 6B DC BD 28 02 B0 DA 83 9C CC
+  Hash SHA1: 67 42 F2 DD 81 DF CE 29 FF C8 04 22 BF F0 76 2A C0 A3 98 14
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn5b65ed61'
+[root@podolsk-mr-9cs ~]# 

@@ -1,0 +1,27 @@
+Last login: Thu Mar 19 11:19:38 2020 from 10.254.253.252
+[root@elektrostal-go-3cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@elektrostal-go-3cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@elektrostal-go-3cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=electrostal-go-3cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Fri Dec 28 11:34:36 2018
+  Valid to:   Sat Mar 28 11:44:36 2020
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 1B 84 E9 11 7C 0A 0D 5B 6D CA
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  75 3E A8 81 54 12 57 4F 27 6C EC 4D B5 1B 8E 1E
+  Hash SHA1: CD 39 3A C5 07 2F 34 36 13 5B A9 0D CE 0E 87 FE 9C FD D7 59
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'HDIMAGE\\f5c356e4.000'
+[root@elektrostal-go-3cs ~]# 

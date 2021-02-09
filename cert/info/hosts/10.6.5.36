@@ -1,0 +1,37 @@
+S-Terra Gate 4.3.20279 (amd64)
+Last login: Sun Jan 24 21:16:30 2021 from 10.254.253.252
+root@dmitrov-mr-5cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.3
+product build number: 4.3.20279
+product build date:   2019/12/27 13:59:32
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 4.9.0-11-amd64 #1 SMP Debian 4.9.189-3st1 (2019-09-12)
+license information:  GATE,5035027059,191148
+crypto provider:      S-Terra
+root@dmitrov-mr-5cs:~# cat /etc/issue.net
+Debian GNU/Linux 9
+root@dmitrov-mr-5cs:~# cert_mgr show -i 3
+3 Status: local   
+  Subject: C=RU,CN=dmitrov_mr_1cs
+  Issuer: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Valid from: Sat Nov 28 13:03:51 2020
+  Valid to:   Mon Feb 28 13:13:51 2022
+  Version: 3
+  Type: End Entity
+  Serial number: 63 98 A8 00 81 AC 9D B1 4D B7 69 91 2E A9 BF 3E
+  Signature algorithm: GOST_R_341012_256_341112 (TC26)
+  Public key: GOST R 341012(512)
+  Hash MD5:  58 52 2E D4 EF B6 1B 8E 8A 0E D6 55 E6 15 5F D5
+  Hash SHA1: E9 05 12 26 36 19 8E A1 A2 39 D1 99 CC EC 2B E0 24 DB 7E E8
+  DP[0]: URI=http://cert.coordcom.local/cdp/73d8e9c652acb51f7cdcb23c591cdfa0fe936052.crl
+  CRLI[0]: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Private key container name: 'file_p15://local'
+  Key Usage: digitalSignature, nonRepudiation, keyEncipherment, keyAgreement
+  Cert Template: "MBAGCCqFAwICLgAIAgEBAgEA"
+  Additional Extension 1.3.6.1.5.5.7.1.1: "MFkwVwYIKwYBBQUHMAKGS2h0dHA6Ly9jZXJ0LmNvb3JkY29tLmxvY2FsL2FpYS83M2Q4ZTljNjUyYWNiNTFmN2NkY2IyM2M1OTFjZGZhMGZlOTM2MDUyLmNydA=="
+  Additional Extension 2.5.29.16: "MCKADzIwMjAxMTI4MTAwMzUxWoEPMjAyMjAyMjgxMDAzNTFa"
+root@dmitrov-mr-5cs:~# 

@@ -1,0 +1,39 @@
+Linux che-golovka-go-4cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@che-golovka-go-4cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,112100
+crypto provider:      S-Terra
+root@che-golovka-go-4cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@che-golovka-go-4cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=Che-golovlka-go-4cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Mon Nov 26 13:01:41 2018
+  Valid to:   Wed Feb 26 13:11:41 2020
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 89 A4 E8 11 63 F1 EB FD 66 AA
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  41 17 27 F4 64 1E 09 3E 73 FA 3F 04 24 DC E2 FE
+  Hash SHA1: C2 9E 9D 6C 71 82 63 B3 7C 4C E0 03 C4 E5 62 AC 9C C5 60 C6
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5bfc01a1'
+root@che-golovka-go-4cs:~# 

@@ -1,0 +1,33 @@
+S-Terra Gate 4.2.18201 (amd64)
+root@balashiha-go-1cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.2
+product build number: 4.2.18201
+product build date:   2017/12/12 12:50:08
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 3.2.0-4-amd64 #1 SMP Debian 3.2.81-2
+license information:  GATE,7702771720,138058
+crypto provider:      S-Terra
+root@balashiha-go-1cs:~# cat /etc/issue.net
+Debian GNU/Linux 7
+root@balashiha-go-1cs:~# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=balashiha-go-1cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Thu Jul 11 13:56:24 2019
+  Valid to:   Sun Oct 11 14:06:24 2020
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 70 B0 E9 11 CB A3 22 09 05 EB
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  F4 77 D8 E7 5A 87 47 44 F9 1B 5B 3E B0 4A D4 16
+  Hash SHA1: CE DC C8 8D CB CC C0 BA BE 26 0D CE 0B F4 AC 28 36 90 E0 3A
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file_p15://vpn5d2718f3'
+  Key Usage: digitalSignature, keyEncipherment, keyAgreement
+root@balashiha-go-1cs:~# 

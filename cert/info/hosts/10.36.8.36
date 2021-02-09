@@ -1,0 +1,39 @@
+Linux mitishinskiy-mr-8cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@mitishinskiy-mr-8cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,111777
+crypto provider:      S-Terra
+root@mitishinskiy-mr-8cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@mitishinskiy-mr-8cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=mitishinski-mr-8cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Jan  2 10:11:30 2018
+  Valid to:   Tue Apr  2 10:21:30 2019
+  Version: 3
+  Type: End Entity
+  Serial number: 4B 99 30 8B AE 6E B9 92 E7 11 8D EF 9D 0B B7 8C
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  4B EB 57 A0 C3 D2 2F 56 95 49 4D 10 75 3A 9D DB
+  Hash SHA1: F6 9B D4 FA C0 59 3F 4B D4 2B 3D EA AD 7F 8C A1 6A 3D 60 E2
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5a4b2f74'
+root@mitishinskiy-mr-8cs:~# 

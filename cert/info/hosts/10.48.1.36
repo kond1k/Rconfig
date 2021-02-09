@@ -1,0 +1,33 @@
+S-Terra Gate 4.2.18201 (amd64)
+root@podolsk-go-1cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.2
+product build number: 4.2.18201
+product build date:   2017/12/12 12:50:08
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 3.2.0-4-amd64 #1 SMP Debian 3.2.81-2
+license information:  GATE,7702771720,138063
+crypto provider:      S-Terra
+root@podolsk-go-1cs:~# cat /etc/issue.net
+Debian GNU/Linux 7
+root@podolsk-go-1cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=podolsk-go-1cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Feb 19 21:25:31 2020
+  Valid to:   Wed May 19 21:35:31 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 5C 34 31 8B AE 6C F7 BC EA 11 46 53 56 2B BE 9A
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  F0 B3 70 7B 11 24 00 05 A6 1F CC FC A5 4C 7D 6D
+  Hash SHA1: 03 77 E0 3C 3C 06 D6 25 0E D5 05 0C A7 A1 2A 76 3B 99 BA B6
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file_p15://vpn5f71b6f9'
+  Key Usage: digitalSignature, keyEncipherment, keyAgreement
+root@podolsk-go-1cs:~# 

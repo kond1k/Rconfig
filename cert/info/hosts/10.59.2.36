@@ -1,0 +1,26 @@
+[root@serpuhov-go-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.1
+cvs-based build number: 3.1.1.1637.2.1818.2.28.2.3599.4.737.2.1160
+build number: 3.1.10330
+cvs-based build date (GMT): 2010-01-12 23:09:19
+build date: 2010/1/13 (0)
+product/platform information: GATE LINUXRHEL5 i686
+[root@serpuhov-go-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@serpuhov-go-2cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=serpuhov-go-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Fri Aug  2 11:40:05 2019
+  Valid to:   Mon Nov  2 11:50:05 2020
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 7B 80 E9 11 02 B5 44 35 83 83
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  D0 A9 6F 04 BE 77 7D 72 07 4E 7E 1D 36 31 E9 99
+  Hash SHA1: B5 B2 F5 96 6D BD 6F 02 A5 77 E1 0A FA 96 D3 4C 2F 41 D1 6D
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn5d446bb9'
+[root@serpuhov-go-2cs ~]# 

@@ -1,0 +1,27 @@
+Last login: Sun May 17 08:23:18 2020 from 10.254.253.252
+[root@vlasiha-zato-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@vlasiha-zato-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@vlasiha-zato-2cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=vlasiha-zato-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Apr 15 15:33:00 2015
+  Valid to:   Fri Jul 15 15:43:00 2016
+  Version: 3
+  Serial number: 2A E9 63 E3 00 00 00 00 00 C9
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  21 BE AA 38 0C 6E 1D D0 F6 EC B7 E9 26 7A 29 FC
+  Hash SHA1: 38 A9 AD 1E 41 60 AE 46 82 34 E1 64 3D 2D 94 E5 BA D8 4B F3
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9E7A20FD94AA97DDB3F9EFFF85D5FD1EA528C22F.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'HDIMAGE\\RaUser-d.000\897E'
+[root@vlasiha-zato-2cs ~]# 

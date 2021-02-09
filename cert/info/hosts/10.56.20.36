@@ -1,0 +1,39 @@
+Linux ruzskiy-mr-20cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@ruzskiy-mr-20cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,111881
+crypto provider:      S-Terra
+root@ruzskiy-mr-20cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@ruzskiy-mr-20cs:~# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=ruzskiy-mr-20cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Feb 19 12:15:59 2020
+  Valid to:   Wed May 19 12:25:59 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 76 BC EA 11 F9 52 07 08 8B D5
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  C1 E7 37 5E E8 A0 9A E1 9A BF 39 2D 9C 07 35 26
+  Hash SHA1: 34 FB 36 43 B0 E1 71 1E 19 18 5D A8 0D 83 A3 61 F7 D1 92 D5
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5eeb6758'
+root@ruzskiy-mr-20cs:~# 

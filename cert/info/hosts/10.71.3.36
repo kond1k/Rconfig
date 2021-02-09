@@ -1,0 +1,26 @@
+[root@elektro-gk-3cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@elektro-gk-3cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@elektro-gk-3cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=electro-gk-go-3cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Fri Dec 28 11:37:16 2018
+  Valid to:   Sat Mar 28 11:47:16 2020
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 1B 84 E9 11 7D 0A 7A 42 A5 2C
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  7E 99 C4 87 D1 C3 30 E2 A8 9E A1 00 E1 4E 7E 6B
+  Hash SHA1: 99 41 6B C5 E9 C7 A4 FF 68 6A 35 B9 22 32 24 89 DD 47 84 DF
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'HDIMAGE\\f9815b69.000'
+[root@elektro-gk-3cs ~]# 

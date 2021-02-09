@@ -1,0 +1,27 @@
+Last login: Mon Sep 28 08:09:21 2020 from 10.254.253.252
+[root@roshal-go-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.1
+cvs-based build number: 3.1.1.1637.2.1818.2.28.2.3599.4.737.2.1160
+build number: 3.1.10330
+cvs-based build date (GMT): 2010-01-12 23:09:19
+build date: 2010/1/13 (0)
+product/platform information: GATE LINUXRHEL5 i686
+[root@roshal-go-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@roshal-go-2cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=korolev-go-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Thu Apr  5 09:22:36 2018
+  Valid to:   Fri Jul  5 09:32:36 2019
+  Version: 3
+  Serial number: 4B 99 30 8B AE 6E B9 92 E8 11 9B 38 2E 58 2E 20
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  06 98 E0 21 0D 29 6F 03 E0 7F 62 18 14 F6 5F AF
+  Hash SHA1: 34 59 29 D5 3C 33 22 6A 93 E5 53 79 99 CA AA 13 76 53 EB 37
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn5ac59e70'
+[root@roshal-go-2cs ~]# 

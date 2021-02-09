@@ -1,0 +1,39 @@
+Linux shaturskiy-mr-9cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@shaturskiy-mr-9cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,111724
+crypto provider:      S-Terra
+root@shaturskiy-mr-9cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@shaturskiy-mr-9cs:~# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=shaturskiy-mr-9cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sun Dec  9 02:28:56 2018
+  Valid to:   Mon Mar  9 02:38:56 2020
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 89 A4 E8 11 42 FB 47 F7 CF 68
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  DB B1 B5 CB 68 D2 E8 03 73 59 E1 E5 7F E1 68 12
+  Hash SHA1: 31 AF 2F C5 0D 73 31 83 69 33 17 B5 6D A2 54 E4 D0 48 A5 76
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5c0c8b8d'
+root@shaturskiy-mr-9cs:~# 

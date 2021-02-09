@@ -1,0 +1,39 @@
+Linux zv-gor-zato-go-2cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@zv-gor-zato-go-2cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,112056
+crypto provider:      S-Terra
+root@zv-gor-zato-go-2cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@zv-gor-zato-go-2cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=zv-gor-zato-go-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Jan  2 14:37:04 2018
+  Valid to:   Tue Apr  2 14:47:04 2019
+  Version: 3
+  Type: End Entity
+  Serial number: 4B 99 30 8B AE 6E B9 92 E7 11 B2 EF 4D B3 C7 A5
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  9C 37 2D 53 1F 9F B2 43 66 DD 7D 79 FA 39 36 76
+  Hash SHA1: 47 D4 A4 45 BD CB E5 2B B9 39 71 C1 63 27 37 53 F0 0B 82 8C
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5a4ba4bd'
+root@zv-gor-zato-go-2cs:~# 

@@ -1,0 +1,39 @@
+Linux schelkovski-mr-17cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@schelkovski-mr-17cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,112203
+crypto provider:      S-Terra
+root@schelkovski-mr-17cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@schelkovski-mr-17cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S_Terra KP,CN=schelkovski-mr-17cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Oct 22 10:28:42 2019
+  Valid to:   Fri Jan 22 10:38:42 2021
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 7B 80 E9 11 9E F4 13 6F 1B F7
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  5B E1 F4 5B 40 26 B8 34 88 75 B3 09 E0 A0 3F 15
+  Hash SHA1: CC D4 50 53 72 E2 64 9D E4 D4 F5 07 6A 15 C2 0E DA 82 93 F8
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5daea217'
+root@schelkovski-mr-17cs:~# 

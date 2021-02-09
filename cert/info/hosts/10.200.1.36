@@ -1,0 +1,40 @@
+Linux mos-oblast-msk-8cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Feb  5 21:54:18 2020 from 10.254.253.252
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@mos-oblast-msk-8cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,111911
+crypto provider:      S-Terra
+root@mos-oblast-msk-8cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@mos-oblast-msk-8cs:~# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=mos-oblast-msk-8cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Nov  1 14:08:00 2017
+  Valid to:   Thu Nov  1 14:23:00 2018
+  Version: 3
+  Type: End Entity
+  Serial number: 77 8A 79 98 00 00 00 00 07 64
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  80 91 48 38 BE FF 5B 71 36 84 60 56 C2 78 C6 A9
+  Hash SHA1: F5 6E 2D 0B 02 4D 02 E6 FB 0A 37 01 98 BD B7 3C 94 8E 52 87
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn59f9ab5d'
+root@mos-oblast-msk-8cs:~# 

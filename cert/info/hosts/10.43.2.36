@@ -1,0 +1,27 @@
+Last login: Tue Jan 19 19:09:22 2021 from 10.254.253.252
+[root@pav-posad-mr-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@pav-posad-mr-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@pav-posad-mr-2cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=pav-posad-mr-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sat Feb  1 15:38:51 2020
+  Valid to:   Sat May  1 15:48:51 2021
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 32 B8 EA 11 E8 44 FD F7 C1 CF
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  59 32 BF C5 E9 F2 76 15 3D 91 31 D2 FD 14 FA 7C
+  Hash SHA1: 47 ED B7 84 AD 58 A0 CD B0 A7 89 2B 74 64 6F F4 57 3D 22 CE
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn6006b7e9'
+[root@pav-posad-mr-2cs ~]# 

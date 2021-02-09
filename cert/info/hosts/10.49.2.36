@@ -1,0 +1,39 @@
+Linux podolsk-mr-2cs 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013 i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+[3g        H        H        H        H        H        H        H        H        H>[?3l[?4l[?5l[?7h[?8hroot@podolsk-mr-2cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.1
+product build number: 4.1.14905
+product build date:   2014-08-28 13:21:40
+product target CPU:   i686
+
+System information:
+OS information:       Linux 2.6.32-5-686 #1 SMP Tue May 7 17:22:22 MSK 2013
+license information:  GATE100,UPSSMOSREG,112008
+crypto provider:      S-Terra
+root@podolsk-mr-2cs:~# cat /etc/issue.net
+Debian GNU/Linux 6.0
+root@podolsk-mr-2cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=podolsk-mr-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sun Sep 16 22:37:56 2018
+  Valid to:   Mon Dec 16 22:47:56 2019
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 38 B9 E8 11 E9 B9 30 BB 4D 63
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  E1 65 14 F2 76 8E 48 91 DB 6F 6C 17 A2 7A 00 9B
+  Hash SHA1: 37 DC C2 0D 47 49 AA 72 7D 22 32 71 D7 17 CA EC 2C DD F0 DF
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file://vpn5b9eb1c3'
+root@podolsk-mr-2cs:~# 

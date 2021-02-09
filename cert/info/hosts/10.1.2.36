@@ -1,0 +1,26 @@
+[root@balashiha-go-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.1
+cvs-based build number: 3.1.1.1637.2.1818.2.28.2.3599.4.737.2.1160
+build number: 3.1.10330
+cvs-based build date (GMT): 2010-01-12 23:09:19
+build date: 2010/1/13 (0)
+product/platform information: GATE LINUXRHEL5 i686
+[root@balashiha-go-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@balashiha-go-2cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=balashiha-go-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Feb 19 21:12:10 2020
+  Valid to:   Wed May 19 21:22:10 2021
+  Version: 3
+  Serial number: 01 5C 34 31 8B AE 6C F7 BC EA 11 44 53 BE 79 30 BD
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  FD 1E DF 36 F7 6B 96 77 1B F1 09 14 9F 19 B4 AE
+  Hash SHA1: 03 C2 09 30 2D F1 3A 9D 9B 28 65 3F 27 61 37 19 C0 B2 C4 BD
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn5f71f646'
+[root@balashiha-go-2cs ~]# 

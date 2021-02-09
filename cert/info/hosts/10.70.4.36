@@ -1,0 +1,27 @@
+Last login: Thu Mar 19 12:39:33 2020 from 10.254.253.252
+[root@schelkovski-mr-4cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@schelkovski-mr-4cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@schelkovski-mr-4cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=schelkovski-mr-4cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Tue Jul 12 18:59:00 2016
+  Valid to:   Thu Oct 12 19:14:00 2017
+  Version: 3
+  Serial number: 6C DE 10 7F 00 00 00 00 03 FA
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  9A B3 DD 8D 39 AE E3 25 5C 0B 9D E9 1A 9B 20 A5
+  Hash SHA1: 1A 18 7E 90 7D E8 FB 24 62 62 E2 22 DE 80 CC F2 34 C1 EA 91
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\RaUser-2660f83d-e399-456d-b48b-53847538b30a'
+[root@schelkovski-mr-4cs ~]# 

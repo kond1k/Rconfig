@@ -1,0 +1,26 @@
+[root@che-golovka-go-3cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@che-golovka-go-3cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@che-golovka-go-3cs ~]# cert_mgr show -i 2
+2 Status: local   
+  Subject: C=RU,L=Moscow,O=MVDRF,OU=S-Terra KP,CN=che-golovka-go-3cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Sun Feb 16 15:30:35 2020
+  Valid to:   Sun May 16 15:40:35 2021
+  Version: 3
+  Serial number: 01 4B 99 30 8B AE 6E 3A A2 EA 11 B9 50 76 86 0A 86
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  24 2F F8 85 C0 5F 33 2A A0 9D 3D 46 0C 17 42 AF
+  Hash SHA1: 60 15 3D 32 20 F9 AB 82 A1 AE 1F D3 95 93 54 AF E4 7A 67 FF
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'hdimage\\ee60ac16.000'
+[root@che-golovka-go-3cs ~]# 

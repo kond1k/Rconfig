@@ -1,0 +1,37 @@
+S-Terra Gate 4.3.20279 (amd64)
+Last login: Tue Dec 15 11:09:50 2020 from 10.253.254.4
+root@noginskiy-mr-12cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.3
+product build number: 4.3.20279
+product build date:   2019/12/27 13:59:32
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 4.9.0-11-amd64 #1 SMP Debian 4.9.189-3st1 (2019-09-12)
+license information:  GATE,5035027059,190675
+crypto provider:      S-Terra
+root@noginskiy-mr-12cs:~# cat /etc/issue.net
+Debian GNU/Linux 9
+root@noginskiy-mr-12cs:~# cert_mgr show -i 3
+3 Status: local   
+  Subject: C=RU,CN=noginskiy_mr_12cs
+  Issuer: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Valid from: Wed Nov 18 15:19:50 2020
+  Valid to:   Fri Feb 18 15:29:50 2022
+  Version: 3
+  Type: End Entity
+  Serial number: 01 F2 CD 00 77 AC 0B 84 43 52 6C 9D 2B D2 BB 14
+  Signature algorithm: GOST_R_341012_256_341112 (TC26)
+  Public key: GOST R 341012(512)
+  Hash MD5:  C5 DA E3 2E F0 28 31 0F 5D 63 1E 44 C9 C8 08 C9
+  Hash SHA1: 26 48 AF 12 19 06 B0 98 21 69 B3 42 A7 32 E4 25 6F 4D 02 F1
+  DP[0]: URI=http://cert.coordcom.local/cdp/73d8e9c652acb51f7cdcb23c591cdfa0fe936052.crl
+  CRLI[0]: OGRN=1145074015448,INN=005036145714,C=ru,ST=50\, \d0\9c\d0\be\d1\81\d0\ba\d0\be\d0\b2\d1\81\d0\ba\d0\b0\d1\8f \d0\be\d0\b1\d0\bb\d0\b0\d1\81\d1\82\d1\8c,L=\d0\b3. \d0\9f\d0\be\d0\b4\d0\be\d0\bb\d1\8c\d1\81\d0\ba,STREET=\d1\83\d0\bb. \d0\9c\d0\b0\d1\88\d0\b8\d0\bd\d0\be\d1\81\d1\82\d1\80\d0\be\d0\b8\d1\82\d0\b5\d0\bb\d0\b5\d0\b9\, \d0\b4. 7\d0\90,O=\d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112,CN=\d0\a3\d0\a6 \d0\93\d0\9a\d0\a3 \d0\9c\d0\9e \d0\a6\d0\b5\d0\bd\d1\82\d1\80 112
+  Private key container name: 'file_p15://noginskiy_mr_12cs'
+  Key Usage: digitalSignature, nonRepudiation, keyEncipherment, keyAgreement
+  Cert Template: "MBAGCCqFAwICLgAIAgEBAgEA"
+  Additional Extension 1.3.6.1.5.5.7.1.1: "MFkwVwYIKwYBBQUHMAKGS2h0dHA6Ly9jZXJ0LmNvb3JkY29tLmxvY2FsL2FpYS83M2Q4ZTljNjUyYWNiNTFmN2NkY2IyM2M1OTFjZGZhMGZlOTM2MDUyLmNydA=="
+  Additional Extension 2.5.29.16: "MCKADzIwMjAxMTE4MTIxOTQ5WoEPMjAyMjAyMTgxMjE5NDla"
+root@noginskiy-mr-12cs:~# 

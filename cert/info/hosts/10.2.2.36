@@ -1,0 +1,26 @@
+[root@bronnici-go-2cs ~]# /opt/VPNagent/bin/v*show
+product release: 3.11
+cvs-based build number: 3.11.1.1637.2.1818.2.28.2.3599.4.737.2.1187.14.23.2.325
+build number: 3.11.12937
+cvs-based build date (GMT): 2012-10-04 16:37:47
+build date: 2012/10/4 (1)
+product/platform information: GATE LINUXRHEL5 i686
+[root@bronnici-go-2cs ~]# cat /etc/issue.net
+CentOS release 5.3 (Final)
+Kernel \r on an \m
+[root@bronnici-go-2cs ~]# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=bronnici-go-2cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Wed Feb 19 23:06:04 2020
+  Valid to:   Wed May 19 23:16:04 2021
+  Version: 3
+  Serial number: 01 5C 34 31 8B AE 6C F7 BC EA 11 4C 53 3A 53 9D 44
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  D3 A5 83 09 E0 FD 0F B5 31 72 36 77 1B F2 26 6F
+  Hash SHA1: 3A DA 7C 41 76 C9 EA AA 9F 3B 95 62 69 CB CC 5E 1E 30 2D EC
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/bd5e1a7ba35410d53e7a7c3b2c35316815be1177.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: '\\.\HDIMAGE\HDIMAGE\\vpn5f71fae0'
+[root@bronnici-go-2cs ~]# 

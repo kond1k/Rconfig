@@ -1,0 +1,34 @@
+S-Terra Gate 4.2.18201 (amd64)
+Last login: Tue Dec 15 10:27:49 2020 from 10.253.254.4
+root@domodedovo-go-1cs:~# /opt/VPNagent/bin/v*show
+Build information:
+product name:         S-Terra Gate
+product release:      4.2
+product build number: 4.2.18201
+product build date:   2017/12/12 12:50:08
+product target CPU:   amd64
+
+System information:
+OS information:       Linux 3.2.0-4-amd64 #1 SMP Debian 3.2.81-2
+license information:  GATE,7702771720,138060
+crypto provider:      S-Terra
+root@domodedovo-go-1cs:~# cat /etc/issue.net
+Debian GNU/Linux 7
+root@domodedovo-go-1cs:~# cert_mgr show -i 1
+1 Status: local   
+  Subject: C=RU,L=Moscow,O=MITS,OU=S-Terra KP,CN=domodedovo-go-1cs
+  Issuer: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Valid from: Fri Dec 28 02:45:25 2018
+  Valid to:   Sat Mar 28 02:55:25 2020
+  Version: 3
+  Type: End Entity
+  Serial number: 01 4B 99 30 8B AE 6E 62 AC E9 11 32 0A 4F C5 FB DF
+  Signature algorithm: GOST_R_341001_3411 (Crypto-Pro)
+  Public key: GOST R 341001(512)
+  Hash MD5:  96 EF 4B 08 3E 82 0E C2 A2 B4 9C CC 04 7C E5 F9
+  Hash SHA1: 30 8E C1 CA A9 9D 07 4C D7 6C 2F 93 88 97 2C 88 11 DF 47 3E
+  DP[0]: URI=http://cert.mits.ru/ra/cdp/9e7a20fd94aa97ddb3f9efff85d5fd1ea528c22f.crl
+  CRLI[0]: C=RU,L=Moscow,O=MITS,OU=Certification Authority,CN=Certificating Center
+  Private key container name: 'file_p15://vpn5c4efba0'
+  Key Usage: digitalSignature, keyEncipherment, keyAgreement
+root@domodedovo-go-1cs:~# 
