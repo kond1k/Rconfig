@@ -1,0 +1,2 @@
+log_mgr set -l info
+log_mgr set-syslog -y enable -a 10.251.252.120

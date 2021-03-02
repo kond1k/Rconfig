@@ -1,0 +1,2069 @@
+
+root@balashiha-go-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-7cs:~# 
+
+root@bronnici-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@bronnici-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@bronnici-go-1cs:~# 
+
+root@volokolamsk-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@volokolamsk-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@volokolamsk-mr-1cs:~# 
+
+root@volokolamsk-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@volokolamsk-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@volokolamsk-mr-4cs:~# 
+
+root@volokolamsk-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@volokolamsk-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@volokolamsk-mr-5cs:~# 
+
+root@voskresensk-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-1cs:~# 
+
+root@voskresensk-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-9cs:~# 
+
+root@voskresensk-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-13cs:~# 
+
+root@dzerjinsk-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dzerjinsk-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dzerjinsk-go-1cs:~# 
+
+root@dmitrov-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dmitrov-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dmitrov-mr-1cs:~# 
+
+root@dmitrov-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dmitrov-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dmitrov-mr-5cs:~# 
+
+root@dmitrov-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dmitrov-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dmitrov-mr-12cs:~# 
+
+root@dolgoprudn-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dolgoprudn-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dolgoprudn-go-1cs:~# 
+
+root@dolgoprudn-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dolgoprudn-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dolgoprudn-go-3cs:~# 
+
+root@domodedovo-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-6cs:~# 
+
+root@domodedovo-go-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-12cs:~# 
+
+root@domodedovo-go-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-13cs:~# 
+
+root@dubna-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dubna-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dubna-go-1cs:~# 
+
+root@dubna-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dubna-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dubna-go-5cs:~# 
+
+root@egorevsk-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@egorevsk-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@egorevsk-mr-1cs:~# 
+
+root@egorevsk-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@egorevsk-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@egorevsk-mr-6cs:~# 
+
+root@j-dorozjniy-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@j-dorozjniy-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@j-dorozjniy-go-4cs:~# 
+
+root@zhukovskiy-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zhukovskiy-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zhukovskiy-go-1cs:~# 
+
+root@zhukovskiy-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zhukovskiy-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zhukovskiy-go-4cs:~# 
+
+root@zaraiskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zaraiskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zaraiskiy-mr-1cs:~# 
+
+root@ivanteevka-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ivanteevka-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ivanteevka-go-1cs:~# 
+
+root@istrinskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-1cs:~# 
+
+root@istrinskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-9cs:~# 
+
+root@istrinskiy-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-14cs:~# 
+
+root@kashirskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-1cs:~# 
+
+root@kashirskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-4cs:~# 
+
+root@kashirskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-8cs:~# 
+
+root@kashirskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-9cs:~# 
+
+root@klinskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klinskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klinskiy-mr-1cs:~# 
+
+root@klinskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klinskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klinskiy-mr-5cs:~# 
+
+root@klinskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klinskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klinskiy-mr-7cs:~# 
+
+root@klinskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klinskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klinskiy-mr-8cs:~# 
+
+root@kolomna-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-1cs:~# 
+
+root@kolomna-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-6cs:~# 
+
+root@kolomna-go-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-8cs:~# 
+
+root@korolev-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@korolev-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@korolev-go-1cs:~# 
+
+root@korolev-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@korolev-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@korolev-go-6cs:~# 
+
+root@kotelniki-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kotelniki-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kotelniki-go-1cs:~# 
+
+root@k-armeisk-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@k-armeisk-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@k-armeisk-go-1cs:~# 
+
+root@krasnogorsk-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-1cs:~# 
+
+root@krasnogorsk-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-10cs:~# 
+
+root@krasnogorsk-mr-15cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-15cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-15cs:~# 
+
+root@k-znam-zato-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@k-znam-zato-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@k-znam-zato-go-1cs:~# 
+
+root@k-znam-zato-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@k-znam-zato-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@k-znam-zato-go-3cs:~# 
+
+root@leninskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-1cs:~# 
+
+root@leninskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-6cs:~# 
+
+root@lobna-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lobna-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lobna-go-1cs:~# 
+
+root@lobna-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lobna-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lobna-go-4cs:~# 
+
+root@losino-petr-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@losino-petr-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@losino-petr-go-1cs:~# 
+
+root@losino-petr-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@losino-petr-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@losino-petr-go-5cs:~# 
+
+root@losino-petr-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@losino-petr-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@losino-petr-go-6cs:~# 
+
+root@lotoshinski-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lotoshinski-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lotoshinski-mr-1cs:~# 
+
+root@luhovitskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@luhovitskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@luhovitskiy-mr-1cs:~# 
+
+root@luhovitskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@luhovitskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@luhovitskiy-mr-4cs:~# 
+
+root@luhovitskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@luhovitskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@luhovitskiy-mr-7cs:~# 
+
+root@litkarino-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@litkarino-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@litkarino-go-1cs:~# 
+
+root@lubereckiy-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-10cs:~# 
+
+root@mozhaiskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-1cs:~# 
+
+root@mozhaiskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-6cs:~# 
+
+root@mozhaiskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-9cs:~# 
+
+root@mitishinski-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinski-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinski-mr-1cs:~# 
+
+root@mitishinski-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinski-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinski-mr-10cs:~# 
+
+root@mitishinski-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinski-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinski-mr-13cs:~# 
+
+root@n-fominsk-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-1cs:~# 
+
+root@n-fominsk-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-9cs:~# 
+
+root@noginskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-1cs:~# 
+
+
+root@noginskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-7cs:~# 
+
+root@noginskiy-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-11cs:~# 
+
+root@noginskiy-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-12cs:~# 
+
+root@noginskiy-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-13cs:~# 
+
+root@odincovskiy-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-14cs:~# 
+
+root@ozerskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ozerskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ozerskiy-mr-1cs:~# 
+
+root@ozerskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ozerskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+
+root@ozerskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ozerskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ozerskiy-mr-6cs:~# 
+
+root@or-zuevo-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-go-5cs:~# 
+
+root@or-zuevo-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-9cs:~# 
+
+root@or-zuevo-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-9cs:~# 
+
+root@or-zuevo-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-10cs:~# 
+
+root@pav-posad-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pav-posad-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pav-posad-mr-1cs:~# 
+
+root@pav-posad-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pav-posad-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pav-posad-mr-4cs:~# 
+
+root@vlasiha-zato-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@vlasiha-zato-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@vlasiha-zato-1cs:~# 
+
+root@voshod-zato-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voshod-zato-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voshod-zato-1cs:~# 
+
+root@zv-gor-zato-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zv-gor-zato-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zv-gor-zato-go-1cs:~# 
+
+root@molod-zato-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@molod-zato-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@molod-zato-go-1cs:~# 
+
+root@podolsk-go-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-8cs:~# 
+
+root@protvino-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@protvino-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@protvino-go-1cs:~# 
+
+root@pushkinskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-1cs:~# 
+
+root@pushkinskiy-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-12cs:~# 
+
+root@pushkinskiy-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-14cs:~# 
+
+root@pushkinskiy-mr-15cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-15cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-15cs:~# 
+
+root@pushino-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushino-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushino-go-1cs:~# 
+
+root@ramenskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-9cs:~# 
+
+root@ramenskiy-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-14cs:~# 
+
+root@ramenskiy-mr-15cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-15cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-15cs:~# 
+
+root@reutov-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@reutov-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@reutov-go-1cs:~# 
+
+root@reutov-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@reutov-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@reutov-go-4cs:~# 
+
+root@roshal-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@roshal-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@roshal-go-1cs:~# 
+
+root@ruzskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-1cs:~# 
+
+root@ruzskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-6cs:~# 
+
+root@ruzskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-9cs:~# 
+
+root@s-posadskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-posadskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-posadskiy-mr-1cs:~# 
+
+root@s-posadskiy-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-posadskiy-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-posadskiy-mr-12cs:~# 
+
+root@s-posadskiy-mr-16cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-posadskiy-mr-16cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-posadskiy-mr-16cs:~# 
+
+root@s-prudskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-prudskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-prudskiy-mr-1cs:~# 
+
+root@s-prudskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-prudskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-prudskiy-mr-5cs:~# 
+
+root@serpuhov-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@serpuhov-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@serpuhov-go-1cs:~# 
+
+root@serpuhov-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@serpuhov-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@serpuhov-go-4cs:~# 
+
+root@s-gorskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-gorskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-gorskiy-mr-1cs:~# 
+
+root@s-gorskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-gorskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-gorskiy-mr-9cs:~# 
+
+root@stupinskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-1cs:~# 
+
+root@stupinskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-6cs:~# 
+
+root@stupinskiy-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-14cs:~# 
+
+root@taldomskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-1cs:~# 
+
+root@taldomskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-8cs:~# 
+
+root@fryazino-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@fryazino-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@fryazino-go-1cs:~# 
+
+root@himki-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-1cs:~# 
+
+root@himki-go-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-8cs:~# 
+
+root@himki-go-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-13cs:~# 
+
+root@che-golovka-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@che-golovka-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@che-golovka-go-1cs:~# 
+
+root@chehovskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@chehovskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@chehovskiy-mr-1cs:~# 
+
+root@chehovskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@chehovskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@chehovskiy-mr-6cs:~# 
+
+root@chehovskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@chehovskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@chehovskiy-mr-8cs:~# 
+
+root@shaturskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shaturskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shaturskiy-mr-5cs:~# 
+
+root@shahovskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shahovskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shahovskiy-mr-1cs:~# 
+
+root@schelkovski-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-1cs:~# 
+
+root@schelkovski-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-10cs:~# 
+
+root@schelkovski-mr-16cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-16cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-16cs:~# 
+
+root@electro-gk-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@electro-gk-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@electro-gk-go-1cs:~# 
+
+root@electrostal-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@electrostal-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@electrostal-go-1cs:~# 
+
+root@s-gorskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-gorskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-gorskiy-mr-6cs:~# 
+
+root@pushkinskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-8cs:~# 
+
+root@schelk-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelk-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelk-mr-10cs:~# 
+
+root@ruzskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-1cs:~# 
+
+root@balashiha-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-1cs:~# 
+
+
+root@domodedovo-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-1cs:~# 
+
+root@lubereckiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-1cs:~# 
+
+root@odincovskiy-mr-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-1cs:~# 
+
+root@podolsk-go-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-1cs:~# 
+
+root@ramenskiy-mr-lcs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-lcs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-lcs:~# 
+
+
+root@balashiha-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-4cs:~# 
+
+
+root@balashiha-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-5cs:~# 
+
+
+root@balashiha-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-6cs:~# 
+
+
+root@balashiha-go-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-8cs:~# 
+
+
+root@balashiha-go-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-9cs:~# 
+
+
+root@balashiha-go-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@balashiha-go-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@balashiha-go-10cs:~# 
+
+
+root@bronnici-go-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@bronnici-go-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@bronnici-go-20cs:~# 
+
+
+root@volokolamsk-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@volokolamsk-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@volokolamsk-mr-2cs:~# 
+
+
+root@voskresensk-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-5cs:~# 
+
+
+root@voskresensk-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-6cs:~# 
+
+
+root@voskresensk-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-7cs:~# 
+
+
+root@voskresensk-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-8cs:~# 
+
+
+root@voskresensk-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-11cs:~# 
+
+
+root@voskresensk-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@voskresensk-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@voskresensk-mr-12cs:~# 
+
+
+root@dmitrov-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dmitrov-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dmitrov-mr-10cs:~# 
+
+
+root@dmitrov-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dmitrov-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dmitrov-mr-20cs:~# 
+
+
+root@domodedovo-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-2cs:~# 
+
+
+root@domodedovo-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-4cs:~# 
+
+
+root@domodedovo-go-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-10cs:~# 
+
+
+root@domodedovo-go-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-11cs:~# 
+
+
+root@domodedovo-go-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@domodedovo-go-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@domodedovo-go-20cs:~# 
+
+
+root@dubna-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@dubna-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@dubna-go-4cs:~# 
+
+
+root@egorevsk-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@egorevsk-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@egorevsk-mr-4cs:~# 
+
+
+root@egorevsk-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@egorevsk-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@egorevsk-mr-8cs:~# 
+
+
+root@zhukovskiy-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zhukovskiy-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zhukovskiy-go-2cs:~# 
+
+
+root@zaraiskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zaraiskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zaraiskiy-mr-6cs:~# 
+
+
+root@zvinigorod-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zvinigorod-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zvinigorod-go-2cs:~# 
+
+
+root@istrinskiy-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-3cs:~# 
+
+
+root@istrinskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-4cs:~# 
+
+
+root@istrinskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-6cs:~# 
+
+
+root@istrinskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-7cs:~# 
+
+
+root@istrinskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-8cs:~# 
+
+
+root@istrinskiy-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-13cs:~# 
+
+
+root@istrinskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@istrinskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@istrinskiy-mr-20cs:~# 
+
+
+root@kashirskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-5cs:~# 
+
+
+root@kashirskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-6cs:~# 
+
+
+root@kashirskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-7cs:~# 
+
+
+root@kashirskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kashirskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kashirskiy-mr-20cs:~# 
+
+
+root@klimovsk-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klimovsk-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klimovsk-go-4cs:~# 
+
+
+root@klinskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@klinskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@klinskiy-mr-4cs:~# 
+
+
+root@kolomenskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomenskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomenskiy-mr-2cs:~# 
+
+
+root@kolomna-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-4cs:~# 
+
+
+root@kolomna-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-5cs:~# 
+
+
+root@korolev-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@korolev-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@korolev-go-4cs:~# 
+
+
+root@korolev-go-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@korolev-go-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@korolev-go-7cs:~# 
+
+
+root@kotelniki-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kotelniki-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kotelniki-go-3cs:~# 
+
+
+root@k-armeisk-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@k-armeisk-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@k-armeisk-go-3cs:~# 
+
+
+root@krasnogorsk-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-4cs:~# 
+
+
+root@krasnogorsk-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-6cs:~# 
+
+
+root@krasnogorsk-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-9cs:~# 
+
+
+root@krasnogorsk-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-14cs:~# 
+
+
+root@k-znam-zato-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@k-znam-zato-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@k-znam-zato-go-2cs:~# 
+
+
+root@leninskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-4cs:~# 
+
+
+root@leninskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-5cs:~# 
+
+
+root@leninskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-7cs:~# 
+
+
+root@leninskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@leninskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@leninskiy-mr-8cs:~# 
+
+
+root@losino-petr-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@losino-petr-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@losino-petr-go-2cs:~# 
+
+
+root@losino-petr-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@losino-petr-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@losino-petr-go-3cs:~# 
+
+
+root@lotoshinski-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lotoshinski-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lotoshinski-mr-2cs:~# 
+
+
+root@luhovitskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@luhovitskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@luhovitskiy-mr-2cs:~# 
+
+
+root@luhovitskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@luhovitskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@luhovitskiy-mr-6cs:~# 
+
+
+root@litkarino-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@litkarino-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@litkarino-go-2cs:~# 
+
+
+root@lubereckiy-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-3cs:~# 
+
+
+root@lubereckiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-5cs:~# 
+
+
+root@lubereckiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-6cs:~# 
+
+
+root@lubereckiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-7cs:~# 
+
+
+root@lubereckiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-9cs:~# 
+
+
+root@lubereckiy-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-11cs:~# 
+
+
+root@lubereckiy-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-13cs:~# 
+
+
+root@lubereckiy-mr-22cs:~# log_mgr set -l info
+Default log level is set successfully
+root@lubereckiy-mr-22cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@lubereckiy-mr-22cs:~# 
+
+
+root@mozhaiskiy-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-3cs:~# 
+
+
+root@mozhaiskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-5cs:~# 
+
+
+root@mozhaiskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mozhaiskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mozhaiskiy-mr-8cs:~# 
+
+
+root@mitishinskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinskiy-mr-5cs:~# 
+
+
+root@mitishinskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinskiy-mr-6cs:~# 
+
+
+root@mitishinskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinskiy-mr-7cs:~# 
+
+
+root@mitishinskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinskiy-mr-8cs:~# 
+
+
+root@mitishinskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinskiy-mr-9cs:~# 
+
+
+root@mitishinski-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mitishinski-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mitishinski-mr-12cs:~# 
+
+
+root@n-fominsk-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-8cs:~# 
+
+
+root@n-fominsk-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-10cs:~# 
+
+
+root@n-fominsk-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-11cs:~# 
+
+
+root@n-fominsk-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-12cs:~# 
+
+
+root@n-fominsk-mr-14cs:~# log_mgr set -l info
+Default log level is set successfully
+root@n-fominsk-mr-14cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@n-fominsk-mr-14cs:~# 
+
+
+root@noginskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-4cs:~# 
+
+
+root@noginskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-20cs:~# 
+
+
+root@noginskiy-mr-21cs:~# log_mgr set -l info
+Default log level is set successfully
+root@noginskiy-mr-21cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@noginskiy-mr-21cs:~# 
+
+
+root@odincovskiy-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-3cs:~# 
+
+
+root@odincovskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-6cs:~# 
+
+
+root@odincovskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-7cs:~# 
+
+
+root@odincovskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-9cs:~# 
+
+
+root@odincovskiy-mr-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-12cs:~# 
+
+
+root@odincovskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-20cs:~# 
+
+
+root@odincovskiy-mr-21cs:~# log_mgr set -l info
+Default log level is set successfully
+root@odincovskiy-mr-21cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@odincovskiy-mr-21cs:~# 
+
+
+root@ozerskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ozerskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ozerskiy-mr-2cs:~# 
+
+
+root@or-zuevo-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-go-2cs:~# 
+
+
+root@or-zuevo-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-go-3cs:~# 
+
+
+root@or-zuevo-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-go-4cs:~# 
+
+
+root@or-zuevo-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-2cs:~# 
+
+
+root@or-zuevo-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-4cs:~# 
+
+
+root@zv-gor-zato-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@zv-gor-zato-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@zv-gor-zato-go-2cs:~# 
+
+
+root@podolsk-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-4cs:~# 
+
+
+root@podolsk-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-5cs:~# 
+
+
+root@podolsk-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-6cs:~# 
+
+
+root@podolsk-go-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-7cs:~# 
+
+
+root@podolsk-go-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-11cs:~# 
+
+
+root@podolsk-go-12cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-12cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-12cs:~# 
+
+
+root@podolsk-go-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-go-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-go-20cs:~# 
+
+
+root@podolsk-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-mr-2cs:~# 
+
+
+root@podolsk-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-mr-3cs:~# 
+
+
+root@podolsk-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-mr-4cs:~# 
+
+
+root@podolsk-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@podolsk-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@podolsk-mr-5cs:~# 
+
+
+root@protvino-go-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@protvino-go-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@protvino-go-2cs:~# 
+
+
+root@pushkinskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-4cs:~# 
+
+
+root@pushkinskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-5cs:~# 
+
+
+root@pushkinskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-6cs:~# 
+
+
+root@pushkinskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-7cs:~# 
+
+
+root@pushkinskiy-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-11cs:~# 
+
+
+root@pushkinskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@pushkinskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@pushkinskiy-mr-20cs:~# 
+
+
+root@pushino-go-5cs:~# log_mgr set -l info
+VPN daemon is not started. Error: Error status 9(0x9).
+root@pushino-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+VPN daemon is not started. Error: Error status 9(0x9).
+root@pushino-go-5cs:~# 
+
+
+root@ramenskiy-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-3cs:~# 
+
+
+root@ramenskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-5cs:~# 
+
+
+root@ramenskiy-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-6cs:~# 
+
+
+root@ramenskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-8cs:~# 
+
+
+root@ramenskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ramenskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ramenskiy-mr-20cs:~# 
+
+
+root@roshal-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@roshal-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@roshal-go-3cs:~# 
+
+
+root@ryzskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ryzskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ryzskiy-mr-2cs:~# 
+
+
+root@ruzskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-4cs:~# 
+
+
+root@ruzskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-5cs:~# 
+
+
+root@ruzskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@ruzskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@ruzskiy-mr-20cs:~# 
+
+
+root@s-posadskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-posadskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-posadskiy-mr-4cs:~# 
+
+
+root@s-posadskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-posadskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-posadskiy-mr-9cs:~# 
+
+
+root@s-prudskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-prudskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-prudskiy-mr-2cs:~# 
+
+
+root@serpuhov-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@serpuhov-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@serpuhov-go-5cs:~# 
+
+
+root@serpuhov-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@serpuhov-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@serpuhov-go-6cs:~# 
+
+
+root@serpuhov-go-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@serpuhov-go-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@serpuhov-go-20cs:~# 
+
+
+root@s-gorskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-gorskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-gorskiy-mr-5cs:~# 
+
+
+root@s-gorskiy-mr-20cs:~# log_mgr set -l info
+Default log level is set successfully
+root@s-gorskiy-mr-20cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@s-gorskiy-mr-20cs:~# 
+
+
+root@stupinskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-4cs:~# 
+
+
+root@stupinskiy-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-10cs:~# 
+
+
+root@stupinskiy-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-11cs:~# 
+
+
+root@stupinskiy-mr-13cs:~# log_mgr set -l info
+Default log level is set successfully
+root@stupinskiy-mr-13cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@stupinskiy-mr-13cs:~# 
+
+
+root@taldomskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-2cs:~# 
+
+
+root@taldomskiy-mr-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-4cs:~# 
+
+
+root@taldomskiy-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-5cs:~# 
+
+
+root@taldomskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@taldomskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@taldomskiy-mr-8cs:~# 
+
+
+root@himki-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-4cs:~# 
+
+
+root@himki-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-5cs:~# 
+
+
+root@himki-go-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-6cs:~# 
+
+
+root@himki-go-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-go-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-go-7cs:~# 
+
+
+root@che-golovka-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@che-golovka-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@che-golovka-go-4cs:~# 
+
+
+root@chehovskiy-mr-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@chehovskiy-mr-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@chehovskiy-mr-7cs:~# 
+
+
+root@shaturskiy-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shaturskiy-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shaturskiy-mr-8cs:~# 
+
+
+root@shaturskiy-mr-9cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shaturskiy-mr-9cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shaturskiy-mr-9cs:~# 
+
+
+root@shaturskiy-mr-10cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shaturskiy-mr-10cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shaturskiy-mr-10cs:~# 
+
+
+root@shaturskiy-mr-11cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shaturskiy-mr-11cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shaturskiy-mr-11cs:~# 
+
+
+root@shahovskiy-mr-2cs:~# log_mgr set -l info
+Default log level is set successfully
+root@shahovskiy-mr-2cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@shahovskiy-mr-2cs:~# 
+
+
+root@schelkovski-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-3cs:~# 
+
+
+root@schelkovski-mr-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-5cs:~# 
+
+
+root@schelkovski-mr-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-6cs:~# 
+
+
+root@schelkovski-mr-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-8cs:~# 
+
+
+root@schelkovski-mr-17cs:~# log_mgr set -l info
+Default log level is set successfully
+root@schelkovski-mr-17cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@schelkovski-mr-17cs:~# 
+
+
+root@electrostal-go-4cs:~# log_mgr set -l info
+Default log level is set successfully
+root@electrostal-go-4cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@electrostal-go-4cs:~# 
+
+
+root@electrostal-go-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@electrostal-go-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@electrostal-go-5cs:~# 
+
+
+root@himki-cuks-1cs:~# log_mgr set -l info
+Default log level is set successfully
+root@himki-cuks-1cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@himki-cuks-1cs:~# 
+
+
+root@krasnogorsk-mr-15cs:~# log_mgr set -l info
+Default log level is set successfully
+root@krasnogorsk-mr-15cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@krasnogorsk-mr-15cs:~# 
+
+
+root@mos-oblast-msk-8cs:~# log_mgr set -l info
+Default log level is set successfully
+root@mos-oblast-msk-8cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@mos-oblast-msk-8cs:~# 
+
+
+root@moscow-5cs:~# log_mgr set -l info
+Default log level is set successfully
+root@moscow-5cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@moscow-5cs:~# 
+
+
+root@moscow-6cs:~# log_mgr set -l info
+Default log level is set successfully
+root@moscow-6cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@moscow-6cs:~# 
+
+
+root@or-zuevo-mr-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@or-zuevo-mr-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@or-zuevo-mr-3cs:~# 
+
+
+root@molod-zato-go-3cs:~# log_mgr set -l info
+Default log level is set successfully
+root@molod-zato-go-3cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@molod-zato-go-3cs:~# 
+
+
+root@kolomna-go-7cs:~# log_mgr set -l info
+Default log level is set successfully
+root@kolomna-go-7cs:~# log_mgr set-syslog -y enable -a 10.251.252.120
+Syslog parameters are set successfully
+root@kolomna-go-7cs:~# 

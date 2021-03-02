@@ -35,7 +35,7 @@ def exec_command_get_cert(host, user, secret, port=22):
         time.sleep(2)
         dn_full = data.recv(100000).decode('utf-8')
         dn = re.search(r'Subject: +(?P<dn>.+)' , dn_full)
-        cn = re.search(r'Subject:.+CN=(?P<cn>.+)' , dn_full)
+        cn = re.search(r'root@(\w+.\w+.\w+(-\w+)?)',dn_full)
         Path("hosts").mkdir(parents=True, exist_ok=True)
         with open (f"hosts/{host.strip()}", 'w') as f:
             f.write(version)
@@ -74,7 +74,7 @@ def exec_command_get_cert(host, user, secret, port=22):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='ip host')
     parser.add_argument('-host', action="store", dest='host')
-    parser.add_argument('--file', action="store_true", dest='file')
+    parser.add_argument('-file', action="store_true", dest='file')
     host = parser.parse_args().host
     if parser.parse_args().file:
         with open('ip.txt') as iplist:

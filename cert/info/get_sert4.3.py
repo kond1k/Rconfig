@@ -10,6 +10,7 @@ cert_valid_dict = {}
 cert_create_status = {}  # конечный статус операции
 CRYPT_ERROR = 'Ошибка криптографии'
 CONNECT_ERROR = 'Ошибка подключения'
+VERSION_ERROR = 'Не подходящий алгоритм шифрования, используйте другой скрипт'
 
 
 def exec_command_get_cert(host, user, secret, port=22):
@@ -20,22 +21,20 @@ def exec_command_get_cert(host, user, secret, port=22):
                        username=user, port=port, allow_agent=False, look_for_keys=False)
         data = client.invoke_shell()
         time.sleep(2)
-        data.send("cert_mgr show\n")
-        time.sleep(2)
-        local = data.recv(100000).decode('utf-8')
-        index = re.search(r'(?P<index>\d+) \S+ local', local)
-        time.sleep(2)
-        data.send(f'cert_mgr show -i {index["index"]}\n')
-        time.sleep(2)
-        dn_full = data.recv(100000).decode('utf-8')
-        dn = re.search(r'Subject: +(?P<dn>.+)' , dn_full)
-        data.send(f"cert_mgr create -subj '{dn['dn']}' -GOST_R3410EL\n")
+        data.send(f"cert_mgr create -subj 'CN='$HOSTNAME',OU=S-Terra KP,O=State-Funded Institution Moscow oblast Center 112,ST=Moscow oblast,C=RU ' -GOST_R341012_256 -e_ctl 1.2.643.2.2.46.0.8,1\n")
         time.sleep(2)
         press = data.recv(100000).decode('utf-8')
+        hostname = re.search(r'root@(\w+.\w+.\w+(-\w+)?)',press)
+        if 'interpret the token' in press:
+            print(VERSION_ERROR)
+            cert_create_status[host] = VERSION_ERROR
+            with open('fail_hosts.txt', 'a') as f:
+                f.write(f'{host} {VERSION_ERROR} \n')
+            return 1
         if 'Crypto error. Unable to create certificate request' in press:
             print(CRYPT_ERROR)
             cert_create_status[host] = CRYPT_ERROR
-            with open('fail_sert.txt', 'a') as f:
+            with open('fail_hosts.txt', 'a') as f:
                 f.write(f'{host} {CRYPT_ERROR} \n')
             return 1
         while "Press key" in press:
@@ -46,28 +45,31 @@ def exec_command_get_cert(host, user, secret, port=22):
             data.send(prompt)
             time.sleep(sleep)
             press = data.recv(100000).decode('utf-8')
-        print(press)
-        answer = press.split('-----')[2]
-        Path("hosts_certs").mkdir(parents=True, exist_ok=True)
+        time.sleep(1)
+        answer = re.search(r'(?P<cert>-----.*-----)', press, flags = re.DOTALL)
+        Path("/srv/nfs/shares/hosts_certs4.3").mkdir(parents=True, exist_ok=True)
         cert_create_status[host] = "SUCCESS"
-        with open(f'hosts_certs/{host.strip()}.txt', 'w') as f:
-            f.write(answer)
+        with open(f'/srv/nfs/shares/hosts_certs4.3/{hostname.group(1)}.req', 'w') as f:
+            f.write(answer['cert'])
             print(f"Complete {host}")
+        with open(f'success_hosts.txt', 'a') as f:
+            f.write(host + '\n')
 
     except paramiko.ssh_exception.NoValidConnectionsError:
-        with open('fail_sert.txt', 'a') as fail:
+        with open('fail_hosts.txt', 'a') as fail:
             fail.write(f'{host} Не удалось подключиться к CSP')
     except TimeoutError:
-        with open('fail_sert.txt', 'a') as fail:
+        with open('fail_hosts.txt', 'a') as fail:
+            cert_create_status[host] = 'Не удалось подключиться'
             fail.write(
                 f' {host} Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое '
-                'время не получен нужный отклик')
+                'время не получен нужный отклик\n')
     except paramiko.ssh_exception.AuthenticationException:
-        with open('fail_sert.txt', 'a') as fail:
+        with open('fail_hosts.txt', 'a') as fail:
             fail.write(f'{host} Ошибка авторизации')
-    except IndexError:
-        cert_create_status[host] = 'Ошибка индексации'
-        with open('fail_sert.txt', 'a') as fail:
+    except (IndexError, TypeError):
+        cert_create_status[host] = 'Ошибка индексации, повторите запрос'
+        with open('fail_hosts.txt', 'a') as fail:
             fail.write(f'{host} Ошибка индексации, повторите запрос\n')
 
 
@@ -78,7 +80,7 @@ if __name__ == '__main__':
     parser.add_argument('-file', action="store_true", dest='file')
     host = parser.parse_args().host
     if parser.parse_args().file:
-        with open('ip.txt') as iplist:
+        with open('ip4.3.txt') as iplist:
             for host in iplist:
                 print(host)
                 exec_command_get_cert(host.strip(), 'root', base64.b64decode('MTIzcXdlQVNE'))
